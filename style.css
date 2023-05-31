@@ -31,7 +31,7 @@ body{
     top:1rem; 
     right:1rem;
     z-index: 1000;
-    background-color:#b0bf3b;
+    background-color:#8daf4f;
     color: #fff;
     border-radius: 5rem;
     padding:1rem 1.5rem;
@@ -86,10 +86,13 @@ header .follow a{
     font-size:2.5rem;
     color:#fff;
     margin:0.7rem;
+    transition: 0.5s;
 }
 
 header .follow a:hover{
     color: #8daf4f;
+    transform: scale(1.5); 
+    z-index: 2;
 }
 
 section{
@@ -222,6 +225,8 @@ letter-spacing: .2rem;
     flex-wrap: wrap;
     gap:1.5rem;
     align-items: center;
+    margin-bottom: 8rem;
+
 }
 
 .about.row-2 .yetenek{
@@ -286,17 +291,105 @@ letter-spacing: .2rem;
 
 
 
+.article .box-container{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    
+   
+}
+
+.article .box-container a .box{
+    width:  33rem;
+    text-align: center;
+    margin: auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0.5rem 1rem #454444;
+    transition:  0.5s ;
+    
+}
+
+.article .box-container a .box:hover{
+    transform: scale(0.9); 
+    z-index: 2;
+}
+
+
+.article .box-container a .box i{
+    height:6rem;
+    width: 6rem;
+    line-height: 6rem;
+    font-size: 2.5rem;
+    color:#fff;
+    background-color: #8daf4f;
+    border-radius: 50%;
+}
+
+.article .box-container a .box h3{
+    color:#444;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+}
+
+.article .box-container a .box p{
+    color:#666;
+    font-size: 1.7rem;
+    padding-top: 0.5rem;
+
+}
 
 
 
 
+.certificate .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+
+.certificate .box-container .box{
+    position: relative;
+    flex:1 1 33rem;
+    border-left:.2rem solid #8daf4f;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
 
 
 
+.certificate .box-container .box .content{
+    background-color: #fff;
+    padding: 1.5rem;
+    box-shadow: 0.5rem 1rem #111;
+    border-radius: .5rem;
+}
 
 
+.certificate .box-container .box .content span{
+    color:#fff;
+    font-size: 1.7rem;
+    background: #8daf4f;
+    border-radius: 5rem;
+    padding: .4rem 1rem;
+}
 
 
+.certificate .box-container .box .content h3{
+    font-size: 2.5rem;
+    padding: .5rem 0;
+    color:#111;
+
+}
+
+
+.certificate .box-container .box .content p{
+    font-size: 1.5rem;
+    color:#666;
+}
 
 
 
