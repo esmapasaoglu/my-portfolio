@@ -460,6 +460,24 @@ letter-spacing: .2rem;
     color: #fff;
 }
 
+.projects .box-container .box .icons button{
+    display: block;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 0.5rem;
+    background-color: #eee;
+    color:#333;
+    font-size: 1.7rem;
+    line-height: 4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.projects .box-container .box .icons button:hover{
+    background-color: #8daf4f;
+    color: #fff;
+}
+
 
 
 
@@ -577,6 +595,7 @@ footer{
     text-align: center;
     color:#666;
     background-color: #fff;
+    
 }
 
 footer span{
