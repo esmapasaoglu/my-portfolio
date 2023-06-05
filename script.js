@@ -13,3 +13,28 @@ menu.classList.remove('fa-times');
 header.classList.remove('active');
 
 }
+
+
+
+    const paylasButon = document.getElementById("paylas");
+    paylasButon.addEventListener("click", async () =>{
+ 
+        if (navigator.canShare) {
+            
+            try {
+                
+                await navigator.share({
+                    title:"Esmanur Paşaoğlu",
+                    text:"Esmanur Paşaoğlu'na ait proje 01.",
+                    url:"https://github.com/esmapasaoglu/ITP-PROJE-ODEVI" 
+                })
+                console.log("Paylaş çalıştı")
+            } catch (error) {
+                console.log("Bir sorun oluştu.")
+            }
+ 
+        } else {
+            Console.log("Tarayıcı desteklemiyor")
+        }
+    });
+ 
