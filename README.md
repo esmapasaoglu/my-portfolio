@@ -1,5 +1,3 @@
-# ITP-PROJE-ODEVI
-İNTERNET TABANLI PROGRAMLAMA DERSİ KİŞİSEL WEB SİTESİ ÖDEVİ
 
 2111502030 Esmanur PAŞAOĞLU 
 BİLGİSAYAR MÜHENDİSLİĞİ(TÜRKÇE) 2.SINIF 
@@ -16,5 +14,3 @@ Web sitemde, yeteneklerim, hakkımda bilgilerim, projelerim, ilgilendiğim konul
 
 Proje süreci boyunca, planlama ve kodlama gibi becerilerimi geliştirme fırsatı buldum.
 
--
-dipnot: Projemi 1 Mayıs tarihinde geliştirmeye başladım fakat daha sonra projem istenen içerikle tam örtüşmediği ve benim de içime sinmediği için için o projeyi yarım bırakıp teslim ettiğim bu projeme başladım. Dilerseniz başlangıç tarihimi kontrol etmek için profilimDe taslak(https://github.com/esmapasaoglu/taslak-internet-tabanl-proje) ismiyle kayıtlı olan projemi yükleme tarihime bakabilirsiniz. 
